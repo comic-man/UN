@@ -2,6 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'money'
+  value: 'dollar'
 })
 export class MoneyPipe implements PipeTransform {
 
